@@ -1,0 +1,173 @@
+
+body {
+    background-color: #465363;
+}
+
+/* ================================================================
+            HEADER
+================================================================ */
+
+.navbar, .dropdown-menu, .dropdown-item:hover, .dropdown-item:focus {
+    background-color:#1e222e;
+}
+
+.fa-bars, .navbar-brand, .dropdown-item:hover, .nav-item a:hover, .navbar fas:hover {
+    color: #f59756;
+}
+
+.navbar, .navbar-text, .navbar-nav li a, a:hover#menuStocks, a:hover#menuTemperature, .dropdown-item:focus {
+    color: #ffffff;
+}
+
+.navbar {
+    border-bottom: solid 1px #ffffff;
+    padding: 0.125rem 1rem;
+}
+
+.navbar-nav li {
+    line-height : 40px;
+}
+
+.navbar-nav li a, .navbar-nav li>span {
+    display:inline-block;
+    vertical-align:middle;
+    line-height:normal;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+#menuPEPS ul li:hover>div {
+    display:block
+}
+
+#menuPEPS ul li, #menuUSER ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dropdown-divider {
+    margin: 0.2rem 0;
+}
+
+
+/* ================================================================
+            CONTENT
+================================================================ */
+
+.error {
+    color: #a14035;
+    padding-left: 0.4rem;
+}
+
+.icones-equipement {
+    position:absolute;
+    bottom:0.5em;
+    right:1em;
+}
+
+.label-radio:disabled {
+    background-color: #ffffff;
+}
+
+.trier-par {
+    font-size:90%;
+}
+/* ================================================================
+            FOOTER
+================================================================ */
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+#banniere {
+    background: url(../images/Banniere3.jpg) no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 400px;
+    width: 100%;
+    background-size: 100%;
+    background-size: cover;
+    border-bottom: #1e222e solid 1px;
+}
+
+
+
+
+table tr td {
+    border-collapse: collapse;
+    border:#465363 solid 1px;
+    padding : 2px 5px;
+    color: #1e222e;
+    text-align: center;
+}
+
+
+/*
+.fas {color: #1e222e;}
+.fas:hover {color:#bc4c3e;}
+*/
+
+.fa-envelope {
+    transform: translateY(12.5%);
+}
+
+.fa-user-plus {
+    transform: translateY(-12%);
+    color:#bc4c3e;
+}
+
+.principal {
+   background-color: /*#D5D5D5*/ #dde5f0;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+
+#copyrights {
+    border-top : solid 1px #1e222e;
+    color:#ffffff;
+    padding-top:20px;
+    padding: 20px;
+ }
+
+#copyrights a {
+    color:#ffffff;
+    text-decoration: underline;
+}
+#copyrights a:hover {
+    color:#f59756
+}
+
+.btn {
+    color: #fff;
+    background-color: #bc4c3e;
+    border-color: #a14035;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #ad4539;
+    border-color: #943c32;
+}
+
+.form-text a {
+    font-size:small;
+    color:#bc4c3e;
+}
+
+
+
+
