@@ -35,10 +35,7 @@ class Connexion_Controller extends CI_Controller
                 if ($query->STATUT === 'ACTIF') {
 
                     //Utilisateur authentifié, création de la session
-                    $this->session->id = $query->Id;
-                    $this->session->nom = $query->NOM;
-                    $this->session->prenom = $query->PRENOM;
-                    $this->session->role = $query->ROLE;
+                    $this->authentif($query);
 
                     $this->load->view('general/header_view');
                     $this->load->view('user/connexion_view', $authentification);
@@ -71,6 +68,15 @@ class Connexion_Controller extends CI_Controller
 
         }
 
+    }
+
+
+    public function authentif($query)
+    {
+        $this->session->id = $query->Id;
+        $this->session->nom = $query->NOM;
+        $this->session->prenom = $query->PRENOM;
+        $this->session->role = $query->ROLE;
     }
 
 

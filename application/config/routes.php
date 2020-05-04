@@ -68,4 +68,6 @@ $route['equipement/desactiver/([0-9]+)'] = 'equipement_controller/equipementOff/
 $route['equipement/new'] = 'equipement_controller/equipementNew';
 $route['equipements'] = 'equipement_controller';
 
+$route['stock/in/([0-9]+)'] = 'stock_controller/productIn/$1';
+
 $route['deconnexion'] = 'connexion_controller/deconnexion';
